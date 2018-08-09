@@ -1,0 +1,84 @@
+body{
+    padding-top: 200px;
+    overflow: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    background-color: white;
+    text-align: center;
+}
+
+table{
+    margin: auto;
+    /*border-radius: 5px;*/
+    box-shadow: 0 0 1px black;
+    margin-bottom: 20px;
+}
+
+.linea{
+    height: 1px;
+    border-top: 2px dashed black;
+    min-width: 50px;
+}
+.prima {
+    background-color: rgb(190, 229, 179);
+    border-color: rgb(190, 229, 179);
+}
+
+.tabla{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 700px;
+    margin-left: calc(50% - (700px / 2));
+    height: 160px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 3px #bbb;
+    border: 5px groove #aaa;
+    border-top: none;
+}
+header input{
+    width: 200px;
+}
+header td{
+    padding: 2px 20px;
+}
+#tablaHeader{
+    margin-bottom: 10px;
+}
+nav>*{
+    display: inline-block;
+}
+
+#submit{
+    height: 30px;
+}
+
+/**************  FASE 2   ********************/
+
+#fase2 tr td:first-child{
+    text-align: right;
+}
+#fase2 td{
+    min-height: 20px;
+    min-width: 20px;
+}
+
+#noPrima td{
+    min-width: 20px;
+}
+
+#radioset{
+    margin-bottom: 30px;
+}
+
+body > div:nth-child(11) *{
+    overflow: scroll;
+    background-color: transparent;
+    line-break: none;
+}
